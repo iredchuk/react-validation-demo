@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import { ValidationProvider } from "./components/validation-context";
-import Form from "./components/form";
-import validateForm from "./services/validate-form";
+import AddressForm from "./components/address-form";
+import validateAddress from "./services/validate-address";
 
 const App = () => (
   <div className="App">
     <header className="App-header">
-      <ValidationProvider validator={validateForm}>
-        <Form initialPostalCode="" initialCity="Munich"></Form>
+      <ValidationProvider validator={validateAddress}>
+        <AddressForm initialPostalCode="" initialCity="Munich"></AddressForm>
       </ValidationProvider>
     </header>
   </div>

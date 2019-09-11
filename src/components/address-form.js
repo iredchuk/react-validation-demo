@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import InputField from "./input-field";
 import { ValidationContext } from "./validation-context";
 
-const Form = ({ initialPostalCode, initialCity }) => {
+const AddressForm = ({ initialPostalCode, initialCity }) => {
   const { validate, isValidating, validationErrors } = useContext(
     ValidationContext
   );
@@ -51,4 +51,4 @@ const Form = ({ initialPostalCode, initialCity }) => {
   );
 };
 
-export default Form;
+export default AddressForm;
