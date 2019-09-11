@@ -1,7 +1,7 @@
 {
   "name": "react-validation-demo",
   "version": "0.1.0",
-  "description": "Demo project on how to implement validation in React using context and hooks.",
+  "description": "A demo of how validation can be implemented in React with hooks and context",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iredchuk/react-validation-demo"

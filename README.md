@@ -1,3 +1,3 @@
-# React Validation Demo
+# React validation demo
 
-Demo project on how to implement validation in React using context and hooks.
+A demo of how validation can be implemented in React with hooks and context.
