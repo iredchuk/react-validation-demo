@@ -1,0 +1,43 @@
+{
+  "name": "react-validation-demo",
+  "version": "0.1.0",
+  "description": "Demo project on how to implement validation in React using context and hooks.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iredchuk/react-validation-demo"
+  },
+  "author": {
+    "name": "Igor Redchuk",
+    "email": "redchuk@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "validation",
+    "hooks",
+    "context"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "last 3 chrome versions",
+    "last 3 firefox versions",
+    "last 3 safari versions"
+  ]
+}

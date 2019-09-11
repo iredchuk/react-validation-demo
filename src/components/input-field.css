@@ -1,0 +1,20 @@
+.InputField {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.InputField-label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.InputField-inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.InputField-input {
+  font-size: 16px;
+}
