@@ -8,7 +8,7 @@ const isPostalCodeValid = async postalCode => {
   return /^\d{5}$/.test(postalCode);
 };
 
-export default async ({ postalCode, city }) => {
+const validateAddress = async ({ postalCode, city }) => {
   const errors = {};
 
   if (!postalCode) {
@@ -23,3 +23,5 @@ export default async ({ postalCode, city }) => {
 
   return errors;
 };
+
+export default validateAddress;
